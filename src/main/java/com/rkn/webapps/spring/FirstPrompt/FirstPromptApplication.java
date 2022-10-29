@@ -12,7 +12,7 @@ public class FirstPromptApplication {
 
 @RequestMapping("/")
 String home(){
-	return "First Prompts";
+	return "It has been successful Finally !!";
 }
 	public static void main(String[] args) {
 		SpringApplication.run(FirstPromptApplication.class, args);
